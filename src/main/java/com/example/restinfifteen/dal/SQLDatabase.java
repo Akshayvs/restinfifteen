@@ -12,7 +12,7 @@ public class SQLDatabase {
         return true;
     }
 
-    public Student getStudent( UUID id) {
+    public Student getStudent(UUID id) {
         Student student = new Student(" Default Student");
         student.setId(id);
         return student;

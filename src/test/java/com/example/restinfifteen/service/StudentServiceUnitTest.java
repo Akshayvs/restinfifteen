@@ -33,7 +33,7 @@ public class StudentServiceUnitTest {
 
         assertThat(addedStudent.getName()).isEqualTo(studentName);
     }
-    
+
     @Test
     public void testGetStudent() {
         UUID testId = UUID.randomUUID();
@@ -44,7 +44,6 @@ public class StudentServiceUnitTest {
 
         assertThat(searchResult).isEqualTo(mockStudentResult);
     }
-
 
 
 }

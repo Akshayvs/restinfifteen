@@ -23,7 +23,7 @@ public class StudentService {
         return student;
     }
 
-    public Student getStudent (UUID id ) {
+    public Student getStudent(UUID id) {
         return database.getStudent(id);
     }
 
